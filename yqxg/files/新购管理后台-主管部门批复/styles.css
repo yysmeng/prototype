@@ -58,7 +58,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+  font-family:'思源黑体 CN Bold', '思源黑体 CN';
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -72,7 +72,7 @@
   top:8px;
   width:645px;
   height:50px;
-  font-family:'思源黑体 CN Bold', '思源黑体 CN Regular', '思源黑体 CN';
+  font-family:'思源黑体 CN Bold', '思源黑体 CN';
   font-weight:700;
   font-style:normal;
   font-size:28px;
@@ -92,7 +92,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:124px;
+  width:45px;
   height:21px;
   background:inherit;
   background-color:rgba(255, 255, 255, 0);
@@ -110,9 +110,9 @@
 #u2703 {
   border-width:0px;
   position:absolute;
-  left:1680px;
+  left:1740px;
   top:22px;
-  width:124px;
+  width:45px;
   height:21px;
   font-family:'微软雅黑';
   font-weight:400;
@@ -125,7 +125,7 @@
   position:absolute;
   left:0px;
   top:0px;
-  width:124px;
+  width:45px;
   word-wrap:break-word;
 }
 #u2704_div {
@@ -5811,7 +5811,7 @@
   -moz-box-shadow:none;
   -webkit-box-shadow:none;
   box-shadow:none;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:18px;
@@ -5824,7 +5824,7 @@
   top:1035px;
   width:250px;
   height:30px;
-  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI Regular', 'Microsoft YaHei UI';
+  font-family:'Microsoft YaHei UI Bold', 'Microsoft YaHei UI';
   font-weight:700;
   font-style:normal;
   font-size:18px;
