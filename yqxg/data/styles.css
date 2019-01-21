@@ -82,5 +82,16 @@
   color:#000000;
   text-align:left;
 }
+.label1 {
+  font-size:14px;
+  text-align:left;
+}
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.checkbox1 {
+  text-align:left;
+}
 .new_style {
 }
