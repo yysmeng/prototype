@@ -1,0 +1,498 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>党外科技人才信息管理系-填报审核详情</title>
+<!--[if lte IE 6]>
+<style type="text/css">
+body { behavior:url("js/csshover.htc"); }
+</style>
+<![endif]-->
+<!--[if IE 6]><script type="text/javascript" src="js/DD_belatedPNG.js"></script><script> DD_belatedPNG.fix('*'); </script><![endif]-->
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/select-widget-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){		
+	$(".ui-select").selectWidget({
+		change       : function (changes) {
+			return changes;
+		},
+		effect       : "slide",
+		keyControl   : true,
+		speed        : 200,
+		scrollHeight : 250
+	});
+	
+});		
+</script>
+</head>
+<body>
+<div class="head">
+  <div class="jz">
+    <div class="head-c1"><span>admin</span>
+      <p>中国科学院上海生物化学与细胞生物学研究所</p>
+      <a>设置</a><a>退出</a></div>
+    <div class="logo"><img src="images/head-02.png" /></div>
+    <div class="search">
+      <input placeholder="请输入关键词" />
+      <a></a></div>
+    <div class="head-c2"><a href="#" target="_blank">人才</a><a href="#" target="_blank" class="head-c2-hover">统计</a><a href="#" target="_blank">审核</a><a href="#" target="_blank">管理</a><a href="#" target="_blank">添加</a></div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="main-h"><i><img src="images/icon-01.png" /></i>
+    <p>您的位置：<a href="#" target="_blank">首页</a>&nbsp;>&nbsp;<a href="#" target="_blank">审核</a>&nbsp;>&nbsp;<a href="#" target="_blank">填报审核列表</a></p>
+    &nbsp;>&nbsp;填报审核详情
+    </p>
+    <a id="fanhui" href="#" onClick="javascript :history.back(-1);">返回上级页面</a></div>
+  <div class="main-c">
+    <div class="main-l">
+      <h3 class="main-l-t">单位树</h3>
+      <ul class="main-l-nav animated">
+        <li class="has-children">
+          <input type="checkbox" name ="nav-1" id="nav-1" checked>
+          <label for="nav-1">市科技系统</label>
+          <ul>
+            <li class="has-children">
+              <input type="checkbox" name ="nav-lvl-1" id="nav-lvl-1">
+              <label for="nav-lvl-1">党政机关</label>
+              <ul>
+                <li class="has-children">
+                  <input type="checkbox" name ="nav-lvl-1-1" id="nav-lvl-1-1">
+                  <label for="nav-lvl-1-1">市科委</label>
+                  <ul>
+                    <li><a href="#0">市科委1</a></li>
+                    <li><a href="#0">市科委2</a></li
+						>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <input type="checkbox" name ="nav-lvl-1-2" id="nav-lvl-1-2">
+                  <label for="nav-lvl-1-2">市科协</label>
+                  <ul>
+                    <li ><a href="#0">市科协2</a></li>
+                    <li><a href="#0">市科协2</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <input type="checkbox" name ="nav-lvl-1-3" id="nav-lvl-1-3">
+                  <label for="nav-lvl-1-3">委属单位</label>
+                  <ul>
+                    <li><a href="#0">技术市场管理办公室</a></li>
+                    <li><a href="#0">科学技术奖励中心</a></li>
+                    <li><a href="#0">科技创业中心</a></li>
+                    <li id="nav-checked"><a href="#0">生物医药科技产业促进中心</a></li>
+                    <li><a href="#0">科技信息中心</a></li>
+                    <li><a href="#0">研发公共服务平台管理中心</a></li>
+                    <li><a href="#0">院士活动中心</a></li>
+                    <li><a href="#0">现代管理研究中心</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <input type="checkbox" name ="nav-2" id="nav-2">
+          <label for="nav-2">中央在沪单位</label>
+          <ul>
+            <li><a href="#0">中央在沪单位1</a></li>
+            <li><a href="#0">中央在沪单位2</a></li>
+          </ul>
+        </li>
+        <li class="has-children">
+          <input type="checkbox" name ="nav-3" id="nav-3">
+          <label for="nav-3">地方单位</label>
+          <ul>
+            <li><a href="#0">地方单位1</a></li>
+            <li><a href="#0">地方单位2</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="main-r">
+      <div class="shxq-c1">
+        <div class="shxq-c1-l">
+          <dl>
+            <dt><span id="c-c00">*</span>姓名</dt>
+            <dd>
+              <input type="text" placeholder="请填写姓名" value="" />
+            </dd>
+          </dl>
+          <dl>
+            <dt><span id="c-c00">*</span>性别</dt>
+            <dd id="sh-dx">
+              <div class="box">
+                <input type="radio"  id="radio1"  name="radio"  checked="checked"/>
+                <label for="radio1">男</label>
+              </div>
+              <div class="box">
+                <input type="radio"  id="radio2"  name="radio"/>
+                <label for="radio2">女</label>
+              </div>
+            </dd>
+          </dl>
+          <dl>
+            <dt>出生年月</dt>
+            <dd>
+              <input type="text" value="" id="data" placeholder="请选择出生年月"/>
+            </dd>
+            <i><img src="images/icon-09.png" /></i>
+          </dl>
+          <dl>
+            <dt>民族</dt>
+            <dd>
+              <input type="text" placeholder="请填写民族" value="" />
+            </dd>
+          </dl>
+          <dl>
+            <dt>籍贯</dt>
+            <dd>
+              <select class="ui-select">
+                <option value="">请选择籍贯</option>
+                <option value="上海">上海</option>
+                <option value="江苏">江苏</option>
+                <option value="浙江">浙江</option>
+                <option value="北京">北京</option>
+                <option value="长春">长春</option>
+                <option value="福建">福建</option>
+                <option value="山东">山东</option>
+                <option value="山西">山西</option>
+                <option value="广州">广州</option>
+              </select>
+              <select class="ui-select">
+                <option value=""></option>
+                <option value="徐汇">徐汇</option>
+              </select>
+            </dd>
+          </dl>
+          <dl>
+            <dt>国籍</dt>
+            <dd>
+              <select class="ui-select">
+                <option value="中华人民共和国">中华人民共和国</option>
+                <option value="美国">美国</option>
+              </select>
+              <select class="ui-select">
+                <option value="取得国（境）外永久居留权的国籍">取得国（境）外永久居留权的国籍</option>
+                <option value="上海">上海</option>
+              </select>
+            </dd>
+          </dl>
+        </div>
+        <div class="shxq-c1-r">
+          <div style="border:1px #f2f2f2 solid;width:133px; height:170px;">
+            <div id="preview"> <img id="imghead" border="0" src="images/default_head.png" width="133" height="170" > </div>
+            <input type="file" onchange="previewImage(this)" style="display: none;" id="previewImg">
+            <input type="button" id="sczp" value="上传头像" onclick="$('#previewImg').click();"/>
+            <p>支持JPG/JPEG/GIF/PNG图片格式,文件小于2M</p>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="shxq-c2">
+        <dl>
+          <dt>学历</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="">请选择学历</option>
+              <option value="本科">本科</option>
+            </select>
+          </dd>
+          <dt>学位</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="">请选择学位</option>
+            </select>
+          </dd>
+        </dl>
+        <dl>
+          <dt>职称</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="">请选择职称</option>
+            </select>
+          </dd>
+          <dt>职级</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="">请选择职级</option>
+            </select>
+          </dd>
+        </dl>
+        <dl>
+          <dt><span id="c-c00">*</span>工作单位</dt>
+          <dd>
+            <input type="text" placeholder="请填写工作单位" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>现任职务</dt>
+          <dd>
+            <input type="text" placeholder="请填写现任职务" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>工作电话</dt>
+          <dd>
+            <input type="text" id="w-235" placeholder="请填写工作电话" value="" />
+          </dd>
+          <dt>手机</dt>
+          <dd>
+            <input type="text" id="w-235" placeholder="请填写手机" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>电子邮箱</dt>
+          <dd>
+            <input type="text" placeholder="请填写电子邮箱" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt><span id="c-c00">*</span>人才类别/政治面貌</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="民主党派">民主党派</option>
+            </select>
+            <p id="select-w2">
+              <select class="ui-select">
+                <option value="九三学社">九三学社</option>
+              </select>
+            </p>
+          </dd>
+        </dl>
+        <dl>
+          <dt>加入党派时间</dt>
+          <dd>
+            <input type="text" placeholder="请选择日期" id="month">
+          </dd>
+          <i><img src="images/icon-09.png" /></i>
+        </dl>
+        <dl>
+          <dt><span id="c-c00">*</span>党派内职务</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="科技委">科技委</option>
+            </select>
+            <p id="select-w2">
+              <select class="ui-select">
+                <option value="主委">主委</option>
+              </select>
+            </p>
+          </dd>
+        </dl>
+        <dl>
+          <dt>其他统战载体职务</dt>
+          <dd>
+            <input type="text" placeholder="请填写其他统战载体职务" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>人大职务</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="人大代表">人大代表</option>
+            </select>
+            <p id="select-w2">
+              <select class="ui-select">
+                <option value="区级">区级</option>
+              </select>
+              <select class="ui-select">
+                <option value="徐汇区">徐汇区</option>
+              </select>
+            </p>
+          </dd>
+        </dl>
+        <dl>
+          <dt>政协职务</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="政协委员">政协委员</option>
+            </select>
+            <p id="select-w2">
+              <select class="ui-select">
+                <option value="区级">区级</option>
+              </select>
+              <select class="ui-select">
+                <option value="徐汇区">徐汇区</option>
+              </select>
+            </p>
+          </dd>
+        </dl>
+        <dl>
+          <dt>社会职务</dt>
+          <dd>
+            <input type="text" placeholder="请填写社会职务" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>专业（专长）</dt>
+          <dd>
+            <input type="text" placeholder="请填写专业" value="" />
+          </dd>
+        </dl>
+        <dl id="shxq-ta">
+          <dt>主要业务表现<br />
+            及获奖情况</dt>
+          <dd>
+            <textarea placeholder="请填写业务表现及获奖情况"></textarea>
+          </dd>
+        </dl>
+        <dl id="shxq-ta">
+          <dt>简历</dt>
+          <dd>
+            <textarea placeholder="请填写简历"></textarea>
+          </dd>
+        </dl>
+        <dl id="shxq-ta">
+          <dt>参加培训和<br />
+            挂职锻炼情况</dt>
+          <dd>
+            <textarea placeholder="请填写参加培训和挂职锻炼情况"></textarea>
+          </dd>
+        </dl>
+        <dl>
+          <dt>在职情况</dt>
+          <dd>
+            <select class="ui-select">
+              <option value="请选择在职情况">请选择在职情况</option>
+            </select>
+          </dd>
+          <dt><span id="c-c00">*</span>体制内/外</dt>
+          <dd id="sh-dx">
+            <div class="box">
+              <input type="radio"  id="radioc2-1"  name="radio2"  checked="checked"/>
+              <label for="radioc2-1">体制内</label>
+            </div>
+            <div class="box">
+              <input type="radio"  id="radioc2-2"  name="radio2"/>
+              <label for="radioc2-2">体制外</label>
+            </div>
+          </dd>
+        </dl>
+      </div>
+      <div class="shxq-c3">
+        <h3 class="shxq-c3-t"><span>填表人信息</span></h3>
+        <div class="shxq-c3-c1">
+          <dl>
+            <dt class="shxq-c3-dt1"></dt>
+            <dd><span>填表单位 ：</span><b>年代管理研究中心</b></dd>
+          </dl>
+          <dl>
+            <dt class="shxq-c3-dt2"></dt>
+            <dd><span>填表人：</span><b>许胡</b></dd>
+          </dl>
+          <dl>
+            <dt class="shxq-c3-dt3"></dt>
+            <dd><span>填表人电话/手机：</span><b>13809875178</b></dd>
+          </dl>
+        </div>
+        <h3 class="shxq-c3-t"><span>审核日记</span></h3>
+        <ul class="shxq-c3-c2">
+          <li> <i class="shtg"></i> <b>2019-06-16 15:26</b>
+            <p>管理员admin 审核通过 张三 的信息</p>
+          </li>
+          <li> <i class="shth"></i> <b>2019-06-13 12:11</b>
+            <p>管理员admin 审核退回 张三 的信息</p>
+            <p>退回理由：不符合相关要求</p>
+          </li>
+        </ul>
+      </div>
+      <dl class="shxq-c4">
+        <dt><b>审核操作：</b>
+          <div id="sh-dx">
+            <div class="box">
+              <input type="radio"  id="radioc3-1"  name="radio3"  checked="checked"/>
+              <label for="radioc3-1">通过</label>
+            </div>
+            <div class="box">
+              <input type="radio"  id="radioc3-2"  name="radio3"/>
+              <label for="radioc3-2">退回</label>
+            </div>
+          </div>
+        </dt>
+        <dd><span>退回理由：</span>
+          <textarea></textarea>
+        </dd>
+        </dd>
+      </dl>
+      <dl class="shxq-b">
+        <dt><a>删除</a></dt>
+        <dd><a>确定</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+<div class="foot">
+  <p>上海市科技党委统战处</p>
+</div>
+<script>
+      //图片上传预览    IE是用了滤镜。
+        function previewImage(file)
+        {
+          var MAXWIDTH  = 133; 
+          var MAXHEIGHT = 170;
+          var div = document.getElementById('preview');
+          if (file.files && file.files[0])
+          {
+              div.innerHTML ='<img id=imghead onclick=$("#previewImg").click()>';
+              var img = document.getElementById('imghead');
+              img.onload = function(){
+                var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+                img.width  =  rect.width;
+                img.height =  rect.height;
+//                 img.style.marginLeft = rect.left+'px';
+                img.style.marginTop = rect.top+'px';
+              }
+              var reader = new FileReader();
+              reader.onload = function(evt){img.src = evt.target.result;}
+              reader.readAsDataURL(file.files[0]);
+          }
+          else //兼容IE
+          {
+            var sFilter='filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src="';
+            file.select();
+            var src = document.selection.createRange().text;
+            div.innerHTML = '<img id=imghead>';
+            var img = document.getElementById('imghead');
+            img.filters.item('DXImageTransform.Microsoft.AlphaImageLoader').src = src;
+            var rect = clacImgZoomParam(MAXWIDTH, MAXHEIGHT, img.offsetWidth, img.offsetHeight);
+            status =('rect:'+rect.top+','+rect.left+','+rect.width+','+rect.height);
+            div.innerHTML = "<div id=divhead style='width:"+rect.width+"px;height:"+rect.height+"px;margin-top:"+rect.top+"px;"+sFilter+src+"\"'></div>";
+          }
+        }
+        function clacImgZoomParam( maxWidth, maxHeight, width, height ){
+            var param = {top:0, left:0, width:width, height:height};
+            if( width>maxWidth || height>maxHeight ){
+                rateWidth = width / maxWidth;
+                rateHeight = height / maxHeight;
+                
+                if( rateWidth > rateHeight ){
+                    param.width =  maxWidth;
+                    param.height = Math.round(height / rateWidth);
+                }else{
+                    param.width = Math.round(width / rateHeight);
+                    param.height = maxHeight;
+                }
+            }
+            param.left = Math.round((maxWidth - param.width) / 2);
+            param.top = Math.round((maxHeight - param.height) / 2);
+            return param;
+        }
+    </script> 
+<script src="js/laydate.js"></script> 
+<script>
+
+laydate.render({
+  elem: '#data'
+});
+laydate.render({
+  elem: '#month'
+  ,type: 'month' //指定元素
+});
+</script>
+</body>
+</html>

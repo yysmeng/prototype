@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>党外科技人才信息管理系统-登录</title>
+<!--[if lte IE 6]>
+<style type="text/css">
+body { behavior:url("js/csshover.htc"); }
+</style>
+<![endif]-->
+<!--[if IE 6]><script type="text/javascript" src="js/DD_belatedPNG.js"></script><script> DD_belatedPNG.fix('*'); </script><![endif]-->
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+<div class="login-bg">
+  <div class="login-c">
+    <form>
+      <p><span class="login-i1"></span>
+        <input style="text" value="">
+      </p>
+      <p><span class="login-i2"></span>
+        <input style="text" value="">
+      </p>
+      <div id="drag"></div>
+      <button id="login">登录</button>
+    </form>
+  </div>
+  <p class="login-b">上海市科技党委统战处</p>
+</div>
+<script src="js/drag.js" type="text/javascript"></script> 
+<script type="text/javascript">
+		$('#drag').drag();
+    $(function(){
+      $("#login").click(function(){
+          location.href='./index.html';
+      });
+    });
+	</script>
+</body>
+</html>
