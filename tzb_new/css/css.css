@@ -34,7 +34,7 @@ input[type="checkbox"]:checked::before{content: "\2713";background-color: #fff;p
 .login-i1 { background: url(../images/login-02.png) center bottom no-repeat; background-size: 100% auto;}
 .login-i2 { background: url(../images/login-03.png) center bottom no-repeat; background-size: 100% auto;}
 .login-c form input{ width: 86%; float: left; border: none; outline:none;padding:0 3%; line-height: 1.8vw;font-size: 1vw;background: none; margin-top:5px}
-.login-c form button{width:100%; height:3vw; line-height:3vw; background: #f60; color: #fff; border-radius:0.4vw; border: none; font-size: 1vw;}
+.login-c form a{ display:block; text-align:center;width:100%; height:3vw; line-height:3vw; background: #f60; color: #fff; border-radius:0.4vw; border: none; font-size: 1vw;}
 .login-b{position:fixed; bottom:7%; text-align:center; width: 100%; color:#333; font-size: 1vw;  }
 
 /*验证码*/
