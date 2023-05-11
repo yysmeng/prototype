@@ -1,0 +1,18 @@
+[
+    {"name": "浦东新区", "value": 4119},
+    {"name": "徐汇区", "value": 2054},
+    {"name": "闵行区", "value": 1752},
+    {"name": "杨浦区", "value": 1581},
+    {"name": "普陀区", "value": 916},
+    {"name": "宝山区", "value": 776},
+    {"name": "嘉定区", "value": 618},
+    {"name": "静安区", "value": 503},
+    {"name": "松江区", "value": 621},
+    {"name": "奉贤区", "value": 432},
+    {"name": "长宁区", "value": 276},
+    {"name": "黄浦区", "value": 279},
+    {"name": "虹口区", "value": 167},
+    {"name": "青浦区", "value": 113},
+    {"name": "金山区", "value": 100},
+    {"name": "崇明区", "value": 62}
+]
